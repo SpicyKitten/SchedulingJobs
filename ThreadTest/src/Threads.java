@@ -68,17 +68,6 @@ public class Threads {
 		System.out.println("All jobs completed");
 	}
 	
-	public static void wait(int i)
-	{
-		try {
-			Thread.sleep(i);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		System.out.println("hadoop job completed");
-	}
-	
 	@FunctionalInterface 
 	public interface ThrowingRunnable extends Runnable
 	{
