@@ -1,3 +1,4 @@
+package scheduling;
 
 public class Job {
 	
@@ -16,7 +17,7 @@ public class Job {
 	
 	private void complete()
 	{
-//		System.out.println("Slept for " + wait/1000 + " seconds, job complete!");
+		//do whatever, on completion
 	}
 
 }
